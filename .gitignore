@@ -15,3 +15,16 @@ whisperx_synth2/
 __pycache__/
 *.pyc
 *.pyo
+
+# Audio files
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.aiff
+*.aif
+*.wma
