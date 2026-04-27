@@ -1,0 +1,17 @@
+# Excluded data/output folders
+dataset/
+separated/
+whisperx_out/
+whisperx_synth/
+whisperx_synth2/
+
+# Python virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
