@@ -1,22 +1,32 @@
-# Excluded data/output folders
+# ── Pipeline outputs ─────────────────────────────────────────────
+# Built locally; not part of the published repo.
 dataset/
 separated/
 whisperx_out/
 whisperx_synth/
 whisperx_synth2/
+output/
+outputs/
+output_stems/
 
-# Python virtual environment
+# ── Python environments ──────────────────────────────────────────
 .venv/
+venv/
+env/
+*-env/
+whisperx-env/
+tts-env/
 
-# macOS
-.DS_Store
-
-# Python caches
+# ── Python caches / build ────────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+.build/
+build/
+dist/
 
-# Audio files
+# ── Audio / media files ──────────────────────────────────────────
 *.wav
 *.mp3
 *.mp4
@@ -28,3 +38,14 @@ __pycache__/
 *.aiff
 *.aif
 *.wma
+
+# ── Archives ─────────────────────────────────────────────────────
+*.tgz
+*.tar.gz
+*.zip
+
+# ── Editor / OS cruft ────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
